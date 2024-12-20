@@ -1,0 +1,13 @@
+.loginPage {
+ background-color: rgb(240, 243, 244); 
+ margin: 0 auto;
+ width: 30%; 
+ border-radius: 5px;
+ border: 1px solid salmon; 
+ margin-top: 4%;
+ padding: 10px;
+}
+.loginPage table{ 
+ width: 100%;
+ display: ruby-text;
+ }

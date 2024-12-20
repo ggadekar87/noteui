@@ -1,0 +1,40 @@
+ .ContentList ul {
+     width: 100%;
+     position: relative;
+    display: contents;
+     margin: 0;
+     padding: 0;
+     scroll-behavior: auto;
+ }
+
+ .ContentList ul:before,
+ .ContentList ul:after {
+     text-align: center;
+     border: 1px solid black;
+     border-bottom: 0;
+     width: 90%;
+ }
+
+ .ContentList li {
+        list-style: none;
+     text-align: right;
+     width: 90%;
+     float: left;
+     border: 1px solid black;
+     margin-bottom: -1px;
+ }
+
+ .ContentList li:nth-child(even) {
+    background-color: azure;
+ }
+
+ .Input-css{
+    width: 99%;
+    height: 30;
+    background-color: hsl(190, 50%, 98%);
+ }
+
+ .ReactQuillCSS{
+    width: 100%;
+    background-color: hsl(190, 50%, 98%);
+ }
